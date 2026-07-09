@@ -78,6 +78,7 @@ if GetLocale() == "esMX" then
     L.CVAR_LABEL_HITBOX_WIDTH_FRIENDLY = "Ancho de hitbox (Aliado)"
     L.CVAR_LABEL_INTERACTION_MODE = "Modo de interacción"
     L.CVAR_LABEL_INTERACTION_ANGLE = "Ángulo de interacción (grados)"
+    L.CVAR_LABEL_TAB_TARGET_RANGE = "Rango de objetivo con Tab (yd)"
     L.CVAR_LABEL_SHOW_PLAYER = "Renderizado del modelo del jugador"
     L.CVAR_LABEL_MSDF_MODE = "Modo de renderizado de fuentes (Requiere Reinicio)"
 	L.CVAR_LABEL_OBJ_HIGHLIGHT = "Resaltado de Objetos"
@@ -105,6 +106,7 @@ if GetLocale() == "esMX" then
 	L.DESC_OBJ_HIGHLIGHT = "Fuerza destellos brillantes en recursos (hierbas/menas) y objetos interactivos como cajas o tableros de anuncios."
 	L.DESC_PORTRAIT = "Aumenta la resolución de la textura de renderizado para todos los retratos del juego."
 	L.DESC_SESSION_LOG = "Añade automáticamente una marca de tiempo al nombre del archivo de registro."
+	L.DESC_TAB_TARGET_RANGE = "Distancia máxima (yardas) a la que TargetNearestEnemy y los comandos de objetivo por Tab encontrarán un candidato."
 
 	-- CVar Mode Options
 	L.MODE_DISABLED = "Desactivado"

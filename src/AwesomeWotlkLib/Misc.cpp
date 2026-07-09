@@ -33,6 +33,11 @@ CVar* s_cvar_objectHighlightMode;
 CVar* s_cvar_portraitResolution;
 CVar* s_cvar_chatLogSessionKey;
 CVar* s_cvar_combatLogSessionKey;
+CVar* s_cvar_tabTargetRange;
+
+// Squared max distance used by CGGameUI::TargetNearest* candidate filter.
+// Default value at this address is 1681.0f (41 yd)^2.
+constexpr uintptr_t TabTargetRangeSq_addr = 0x009FE7F8;
 
 int g_chatLogSessionKey = 1;
 int g_combatLogSessionKey = 1;
@@ -248,6 +253,18 @@ int lua_openmisclib(lua_State* L) {
 int CVarHandler_interactionAngle(CVar* cvar, const char*, const char* value, void*) { return cvar->Sync(value, &g_iAngle, 15, 160, "%d"); }
 int CVarHandler_interactionMode(CVar* cvar, const char*, const char* value, void*) { return cvar->Sync(value, &g_iMode, 0, 1, "%d"); }
 
+int CVarHandler_tabTargetRange(CVar* cvar, const char*, const char* value, void*) {
+	float f;
+	const int result = cvar->Sync(value, &f, 5.0f, 100.0f, "%.1f");
+	const float sq = f * f;
+	DWORD oldProtect;
+	if (VirtualProtect(reinterpret_cast<void*>(TabTargetRangeSq_addr), sizeof(float), PAGE_EXECUTE_READWRITE, &oldProtect)) {
+		*reinterpret_cast<float*>(TabTargetRangeSq_addr) = sq;
+		VirtualProtect(reinterpret_cast<void*>(TabTargetRangeSq_addr), sizeof(float), oldProtect, &oldProtect);
+	}
+	return result;
+}
+
 int CVarHandler_portraitResolution(CVar* cvar, const char*, const char* value, void*) {
 	const int result = cvar->Sync(value, &g_portraitRes, 64, 2048, "%d");
 	g_portraitRes = std::bit_ceil(static_cast<unsigned int>(g_portraitRes));
@@ -417,6 +434,7 @@ void Misc::initialize() {
 	Hooks::FrameXML::registerCVar(&s_cvar_portraitResolution, "portraitResolution", nullptr, "64", CVarHandler_portraitResolution);
 	Hooks::FrameXML::registerCVar(&s_cvar_chatLogSessionKey, "chatLogSessionKey", nullptr, "1", CVarHandler_chatLogSessionKey);
 	Hooks::FrameXML::registerCVar(&s_cvar_combatLogSessionKey, "combatLogSessionKey", nullptr, "1", CVarHandler_combatLogSessionKey);
+	Hooks::FrameXML::registerCVar(&s_cvar_tabTargetRange, "tabTargetRange", nullptr, "41.0", CVarHandler_tabTargetRange);
 
 	std::uint8_t mov_eax[5] = {0xA1, 0x00, 0x00, 0x00, 0x00};
 	uintptr_t varAddress = reinterpret_cast<uintptr_t>(&g_portraitRes);

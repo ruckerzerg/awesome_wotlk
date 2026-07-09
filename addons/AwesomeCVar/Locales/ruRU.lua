@@ -78,6 +78,7 @@ if GetLocale() == "ruRU" then
     L.CVAR_LABEL_HITBOX_WIDTH_FRIENDLY = "Ширина хитбокса (Союзники)"
     L.CVAR_LABEL_INTERACTION_MODE = "Режим взаимодействия"
     L.CVAR_LABEL_INTERACTION_ANGLE = "Угол конуса взаимодействия (град.)"
+    L.CVAR_LABEL_TAB_TARGET_RANGE = "Дистанция Tab-цели (ярды)"
     L.CVAR_LABEL_SHOW_PLAYER = "Отрисовка модели игрока"
     L.CVAR_LABEL_MSDF_MODE = "Режим отрисовки шрифтов (Нужен перезапуск)"
 	L.CVAR_LABEL_OBJ_HIGHLIGHT = "Подсветка объектов"
@@ -105,6 +106,7 @@ if GetLocale() == "ruRU" then
 	L.DESC_OBJ_HIGHLIGHT = "Принудительно включает свечение/искры для ресурсов (трава/руда) и интерактивных объектов, таких как ящики или доски объявлений."
 	L.DESC_PORTRAIT = "Повышает разрешение текстур рендеринга для всех портретов в игре."
 	L.DESC_SESSION_LOG = "Автоматически добавляет временную метку к имени файла журнала."
+	L.DESC_TAB_TARGET_RANGE = "Максимальная дистанция (в ярдах), на которой TargetNearestEnemy и связанные команды выбора цели по Tab ищут кандидата."
 
 	-- Опции режима CVar
 	L.MODE_DISABLED = "Выключено"

@@ -78,6 +78,7 @@ if GetLocale() == "zhTW" then
     L.CVAR_LABEL_HITBOX_WIDTH_FRIENDLY = "友好姓名板點擊判定寬度"
     L.CVAR_LABEL_INTERACTION_MODE = "互動模式"
     L.CVAR_LABEL_INTERACTION_ANGLE = "互動錐形角度 (度)"
+    L.CVAR_LABEL_TAB_TARGET_RANGE = "Tab 選目標距離 (碼)"
     L.CVAR_LABEL_SHOW_PLAYER = "自身角色模型渲染"
     L.CVAR_LABEL_MSDF_MODE = "字體渲染模式 (需要重啟遊戲)"
 	L.CVAR_LABEL_OBJ_HIGHLIGHT = "物件高亮顯示"
@@ -105,6 +106,7 @@ if GetLocale() == "zhTW" then
 	L.DESC_OBJ_HIGHLIGHT = "強制在資源（草藥/礦石）和可互動的物件（如箱子或懸賞通緝令告示牌）上顯示閃爍光芒效果。"
 	L.DESC_PORTRAIT = "提高遊戲內所有頭像材質的著色解析度。"
 	L.DESC_SESSION_LOG = "自動在記錄檔案名稱後加入時間戳。"
+	L.DESC_TAB_TARGET_RANGE = "TargetNearestEnemy 及相關 Tab 選目標指令搜尋候選目標的最大距離（碼）。"
 
 	-- CVar 模式選項
 	L.MODE_DISABLED = "已停用"

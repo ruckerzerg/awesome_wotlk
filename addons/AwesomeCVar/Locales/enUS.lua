@@ -78,6 +78,7 @@ if GetLocale() == "enUS" then
     L.CVAR_LABEL_HITBOX_WIDTH_FRIENDLY = "Friendly Nameplate Hitbox Width"
     L.CVAR_LABEL_INTERACTION_MODE = "Interaction Mode"
     L.CVAR_LABEL_INTERACTION_ANGLE = "Interaction Cone Angle (deg)"
+    L.CVAR_LABEL_TAB_TARGET_RANGE = "Tab Target Range (yd)"
     L.CVAR_LABEL_SHOW_PLAYER = "Player's Character Model Rendering"
     L.CVAR_LABEL_MSDF_MODE = "Font Rendering Mode (Requires Restart)"
     L.CVAR_LABEL_OBJ_HIGHLIGHT = "Object Highlighting"
@@ -105,6 +106,7 @@ if GetLocale() == "enUS" then
 	L.DESC_OBJ_HIGHLIGHT = "Forces glowing sparkles on resources (herbs/ore) and interactive objects like crates or bounty boards."
 	L.DESC_PORTRAIT = "Increases the rendering texture resolution for all portraits in the game."
     L.DESC_SESSION_LOG = "Automatically appends a timestamp to the log file name."
+    L.DESC_TAB_TARGET_RANGE = "Maximum distance (yards) at which TargetNearestEnemy and related tab-target commands will find a candidate."
 
     -- CVar Mode Labels
 	L.MODE_DISABLED = "Disabled"

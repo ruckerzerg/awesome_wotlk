@@ -78,6 +78,7 @@ if GetLocale() == "zhCN" then
     L.CVAR_LABEL_HITBOX_WIDTH_FRIENDLY = "友好姓名板点击判定宽度"
     L.CVAR_LABEL_INTERACTION_MODE = "交互模式"
     L.CVAR_LABEL_INTERACTION_ANGLE = "交互锥形角度 (度)"
+    L.CVAR_LABEL_TAB_TARGET_RANGE = "Tab 选目标距离 (码)"
     L.CVAR_LABEL_SHOW_PLAYER = "自身角色模型渲染"
     L.CVAR_LABEL_MSDF_MODE = "字体渲染模式 (需要重启游戏)"
 	L.CVAR_LABEL_OBJ_HIGHLIGHT = "物体高亮显示"
@@ -105,6 +106,7 @@ if GetLocale() == "zhCN" then
 	L.DESC_OBJ_HIGHLIGHT = "强制在资源（草药/矿石）和可交互的物体（如箱子或悬赏通缉令告示牌）上显示闪烁光芒效果。"
 	L.DESC_PORTRAIT = "提高游戏内所有头像材质的渲染分辨率。"
 	L.DESC_SESSION_LOG = "自动在日志文件名后添加时间戳。"
+	L.DESC_TAB_TARGET_RANGE = "TargetNearestEnemy 及相关 Tab 选目标命令搜索候选目标的最大距离（码）。"
 
 	-- CVar 模式选项
 	L.MODE_DISABLED = "已禁用"

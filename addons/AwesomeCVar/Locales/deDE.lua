@@ -78,6 +78,7 @@ if GetLocale() == "deDE" then
     L.CVAR_LABEL_HITBOX_WIDTH_FRIENDLY = "Hitbox-Breite (Freundlich)"
     L.CVAR_LABEL_INTERACTION_MODE = "Interaktionsmodus"
     L.CVAR_LABEL_INTERACTION_ANGLE = "Interaktionswinkel (Grad)"
+    L.CVAR_LABEL_TAB_TARGET_RANGE = "Tab-Ziel-Reichweite (yd)"
     L.CVAR_LABEL_SHOW_PLAYER = "Eigener Charaktermodell rendern"
     L.CVAR_LABEL_MSDF_MODE = "Schrift-Rendering-Modus (Neustart erforderlich)"
 	L.CVAR_LABEL_OBJ_HIGHLIGHT = "Objekthervorhebung"
@@ -105,6 +106,7 @@ if GetLocale() == "deDE" then
 	L.DESC_OBJ_HIGHLIGHT = "Zwingt leuchtende Funken auf Ressourcen (Kräuter/Erz) und interaktive Objekte wie Kisten oder Steckbriefe."
 	L.DESC_PORTRAIT = "Erhöht die Auflösung der Rendering-Texturen für alle Porträts im Spiel."
 	L.DESC_SESSION_LOG = "Fügt dem Namen der Protokolldatei automatisch einen Zeitstempel hinzu."
+	L.DESC_TAB_TARGET_RANGE = "Maximale Reichweite (Yards), innerhalb derer TargetNearestEnemy und verwandte Tab-Ziel-Befehle Kandidaten finden."
 
     -- CVar Mode Optionen
 	L.MODE_DISABLED = "Deaktiviert"

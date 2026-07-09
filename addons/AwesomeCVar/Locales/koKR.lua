@@ -78,6 +78,7 @@ if GetLocale() == "koKR" then
     L.CVAR_LABEL_HITBOX_WIDTH_FRIENDLY = "아군 이름표 히트박스 너비"
     L.CVAR_LABEL_INTERACTION_MODE = "상호작용 모드"
     L.CVAR_LABEL_INTERACTION_ANGLE = "상호작용 원뿔 각도(도)"
+    L.CVAR_LABEL_TAB_TARGET_RANGE = "Tab 대상 지정 거리 (yd)"
     L.CVAR_LABEL_SHOW_PLAYER = "내 캐릭터 모델 렌더링"
     L.CVAR_LABEL_MSDF_MODE = "글꼴 렌더링 모드 (재시작 필요)"
 	L.CVAR_LABEL_OBJ_HIGHLIGHT = "오브젝트 강조"
@@ -105,6 +106,7 @@ if GetLocale() == "koKR" then
 	L.DESC_OBJ_HIGHLIGHT = "자원(약초/광석) 및 상자나 현상 수배 게시판 같은 상호작용 가능한 오브젝트에 강제로 반짝임 효과를 적용합니다."
 	L.DESC_PORTRAIT = "게임 내 모든 초상화 텍스처의 렌더링 해상도를 높입니다."
 	L.DESC_SESSION_LOG = "로그 파일 이름에 자동으로 타임스탬프를 추가합니다."
+	L.DESC_TAB_TARGET_RANGE = "TargetNearestEnemy 및 관련 Tab 대상 지정 명령이 후보를 찾는 최대 거리(야드)입니다."
 
 	-- CVar 모드 옵션
 	L.MODE_DISABLED = "비활성화됨"

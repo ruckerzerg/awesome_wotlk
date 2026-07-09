@@ -122,6 +122,7 @@ ACVar.CVARS = {
     [L.CATEGORY_INTERACTION] = {
         { name = "interactionMode", label = L.CVAR_LABEL_INTERACTION_MODE, type = "mode", modes = { {value = 0, label = L.MODE_LABEL_PLAYER_RADIUS}, {value = 1, label = L.MODE_LABEL_CONE_ANGLE} }, default = 1 },
         { name = "interactionAngle", label = L.CVAR_LABEL_INTERACTION_ANGLE, type = "slider", min = 1, max = 360, step = 1, default = 90 },
+        { name = "tabTargetRange", label = L.CVAR_LABEL_TAB_TARGET_RANGE, desc = L.DESC_TAB_TARGET_RANGE, type = "slider", min = 5, max = 100, step = 1, default = 41 },
     },
     [L.CATEGORY_OTHER] = {
         { name = "portraitResolution", label = L.CVAR_LABEL_PORTRAIT, desc = L.DESC_PORTRAIT, type = "slider", min = 64, max = 2048, step = 64, default = 64 },

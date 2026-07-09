@@ -78,6 +78,7 @@ if GetLocale() == "ptBR" then
     L.CVAR_LABEL_HITBOX_WIDTH_FRIENDLY = "Largura da Hitbox (Aliado)"
     L.CVAR_LABEL_INTERACTION_MODE = "Modo de Interação"
     L.CVAR_LABEL_INTERACTION_ANGLE = "Ângulo de Interação (graus)"
+    L.CVAR_LABEL_TAB_TARGET_RANGE = "Alcance do Tab-Alvo (yd)"
     L.CVAR_LABEL_SHOW_PLAYER = "Renderizar Modelo do Jogador"
     L.CVAR_LABEL_MSDF_MODE = "Modo de Renderização de Fonte (Requer Reinício)"
 	L.CVAR_LABEL_OBJ_HIGHLIGHT = "Destaque de Objetos"
@@ -105,6 +106,7 @@ if GetLocale() == "ptBR" then
 	L.DESC_OBJ_HIGHLIGHT = "Força faíscas brilhantes em recursos (ervas/minérios) e objetos interativos como caixas ou murais de missões."
 	L.DESC_PORTRAIT = "Aumenta a resolução da textura de renderização para todos os retratos no jogo."
 	L.DESC_SESSION_LOG = "Adiciona automaticamente um carimbo de data/hora ao nome do arquivo de log."
+	L.DESC_TAB_TARGET_RANGE = "Distância máxima (jardas) em que TargetNearestEnemy e os comandos relacionados de seleção por Tab encontram um candidato."
 
 	-- Opções de Modo CVar
     L.MODE_DISABLED = "Desativado"

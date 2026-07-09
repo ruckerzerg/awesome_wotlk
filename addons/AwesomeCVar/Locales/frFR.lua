@@ -78,6 +78,7 @@ if GetLocale() == "frFR" then
     L.CVAR_LABEL_HITBOX_WIDTH_FRIENDLY = "Largeur hitbox (Allié)"
     L.CVAR_LABEL_INTERACTION_MODE = "Mode d'interaction"
     L.CVAR_LABEL_INTERACTION_ANGLE = "Angle d'interaction (deg)"
+    L.CVAR_LABEL_TAB_TARGET_RANGE = "Portée de ciblage par Tab (yd)"
     L.CVAR_LABEL_SHOW_PLAYER = "Affichage du modèle du joueur"
     L.CVAR_LABEL_MSDF_MODE = "Mode de rendu des polices (Requiert Redémarrage)"
 	L.CVAR_LABEL_OBJ_HIGHLIGHT = "Mise en valeur des objets"
@@ -105,6 +106,7 @@ if GetLocale() == "frFR" then
 	L.DESC_OBJ_HIGHLIGHT = "Force l'apparition de scintillements brillants sur les ressources (herbes/minerai) et les objets interactifs comme les caisses ou les panneaux de primes."
 	L.DESC_PORTRAIT = "Augmente la résolution de la texture de rendu de tous les portraits en jeu."
 	L.DESC_SESSION_LOG = "Ajoute automatiquement un horodatage au nom du fichier journal."
+	L.DESC_TAB_TARGET_RANGE = "Distance maximale (yards) à laquelle TargetNearestEnemy et les commandes de ciblage par Tab peuvent trouver un candidat."
 
 	-- Options Mode CVar
 	L.MODE_DISABLED = "Désactivé"
