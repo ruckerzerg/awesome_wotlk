@@ -106,6 +106,8 @@ if GetLocale() == "enUS" then
 	L.DESC_OBJ_HIGHLIGHT = "Forces glowing sparkles on resources (herbs/ore) and interactive objects like crates or bounty boards."
 	L.DESC_PORTRAIT = "Increases the rendering texture resolution for all portraits in the game."
     L.DESC_SESSION_LOG = "Automatically appends a timestamp to the log file name."
+    L.CVAR_LABEL_REMOVE_STANCE_REQ = "Remove Stance/Form Requirement"
+    L.DESC_REMOVE_STANCE_REQ = "Stops the client from blocking spells that require a specific stance or form before sending them (e.g. Charge while not in Battle Stance). The cast is still validated by the server, so nothing bypasses server rules. Handy for macros."
     L.DESC_TAB_TARGET_RANGE = "Maximum distance (yards) at which TargetNearestEnemy and related tab-target commands will find a candidate."
 
     -- CVar Mode Labels

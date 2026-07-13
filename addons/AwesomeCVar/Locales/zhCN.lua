@@ -106,6 +106,8 @@ if GetLocale() == "zhCN" then
 	L.DESC_OBJ_HIGHLIGHT = "强制在资源（草药/矿石）和可交互的物体（如箱子或悬赏通缉令告示牌）上显示闪烁光芒效果。"
 	L.DESC_PORTRAIT = "提高游戏内所有头像材质的渲染分辨率。"
 	L.DESC_SESSION_LOG = "自动在日志文件名后添加时间戳。"
+	L.CVAR_LABEL_REMOVE_STANCE_REQ = "移除姿态/形态要求"
+	L.DESC_REMOVE_STANCE_REQ = "在发送前阻止客户端拦截需要特定姿态或形态的法术（例如未处于战斗姿态时的冲锋）。施放仍由服务器验证，因此不会绕过服务器规则。对宏很有用。"
 	L.DESC_TAB_TARGET_RANGE = "TargetNearestEnemy 及相关 Tab 选目标命令搜索候选目标的最大距离（码）。"
 
 	-- CVar 模式选项

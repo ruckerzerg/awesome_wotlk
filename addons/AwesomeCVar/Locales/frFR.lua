@@ -106,6 +106,8 @@ if GetLocale() == "frFR" then
 	L.DESC_OBJ_HIGHLIGHT = "Force l'apparition de scintillements brillants sur les ressources (herbes/minerai) et les objets interactifs comme les caisses ou les panneaux de primes."
 	L.DESC_PORTRAIT = "Augmente la résolution de la texture de rendu de tous les portraits en jeu."
 	L.DESC_SESSION_LOG = "Ajoute automatiquement un horodatage au nom du fichier journal."
+	L.CVAR_LABEL_REMOVE_STANCE_REQ = "Supprimer l'exigence de posture/forme"
+	L.DESC_REMOVE_STANCE_REQ = "Empêche le client de bloquer les sorts nécessitant une posture ou une forme spécifique avant de les envoyer (par ex. Charge hors de la Posture de combat). Le lancement reste validé par le serveur, aucune règle n'est donc contournée. Pratique pour les macros."
 	L.DESC_TAB_TARGET_RANGE = "Distance maximale (yards) à laquelle TargetNearestEnemy et les commandes de ciblage par Tab peuvent trouver un candidat."
 
 	-- Options Mode CVar
