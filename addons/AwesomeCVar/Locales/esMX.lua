@@ -106,6 +106,8 @@ if GetLocale() == "esMX" then
 	L.DESC_OBJ_HIGHLIGHT = "Fuerza destellos brillantes en recursos (hierbas/menas) y objetos interactivos como cajas o tableros de anuncios."
 	L.DESC_PORTRAIT = "Aumenta la resolución de la textura de renderizado para todos los retratos del juego."
 	L.DESC_SESSION_LOG = "Añade automáticamente una marca de tiempo al nombre del archivo de registro."
+	L.CVAR_LABEL_REMOVE_STANCE_REQ = "Quitar requisito de postura/forma"
+	L.DESC_REMOVE_STANCE_REQ = "Evita que el cliente bloquee hechizos que requieren una postura o forma específica antes de enviarlos (p. ej. Carga fuera de la Postura de combate). El servidor sigue validando el lanzamiento, por lo que no se saltan sus reglas. Útil para macros."
 	L.DESC_TAB_TARGET_RANGE = "Distancia máxima (yardas) a la que TargetNearestEnemy y los comandos de objetivo por Tab encontrarán un candidato."
 
 	-- CVar Mode Options

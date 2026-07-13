@@ -139,5 +139,6 @@ ACVar.CVARS = {
 		}},
         { name = "chatLogSessionKey", label = L.CVAR_LABEL_CHAT_LOG, desc = L.DESC_SESSION_LOG, type = "toggle", min = 0, max = 1, default = 1 },
         { name = "combatLogSessionKey", label = L.CVAR_LABEL_COMBAT_LOG, desc = L.DESC_SESSION_LOG, type = "toggle", min = 0, max = 1, default = 1 },
+        { name = "removeStanceRequirement", label = L.CVAR_LABEL_REMOVE_STANCE_REQ, desc = L.DESC_REMOVE_STANCE_REQ, type = "toggle", min = 0, max = 1, default = 0 },
     }
 }

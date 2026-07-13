@@ -106,6 +106,8 @@ if GetLocale() == "koKR" then
 	L.DESC_OBJ_HIGHLIGHT = "자원(약초/광석) 및 상자나 현상 수배 게시판 같은 상호작용 가능한 오브젝트에 강제로 반짝임 효과를 적용합니다."
 	L.DESC_PORTRAIT = "게임 내 모든 초상화 텍스처의 렌더링 해상도를 높입니다."
 	L.DESC_SESSION_LOG = "로그 파일 이름에 자동으로 타임스탬프를 추가합니다."
+	L.CVAR_LABEL_REMOVE_STANCE_REQ = "태세/변신 요구 제거"
+	L.DESC_REMOVE_STANCE_REQ = "특정 태세나 변신 형태가 필요한 주문을 전송하기 전에 클라이언트가 차단하지 않도록 합니다(예: 전투 태세가 아닐 때의 돌진). 시전은 여전히 서버에서 검증되므로 서버 규칙을 우회하지는 않습니다. 매크로에 유용합니다."
 	L.DESC_TAB_TARGET_RANGE = "TargetNearestEnemy 및 관련 Tab 대상 지정 명령이 후보를 찾는 최대 거리(야드)입니다."
 
 	-- CVar 모드 옵션
