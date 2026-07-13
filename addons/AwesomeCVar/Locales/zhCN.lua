@@ -108,6 +108,8 @@ if GetLocale() == "zhCN" then
 	L.DESC_SESSION_LOG = "自动在日志文件名后添加时间戳。"
 	L.CVAR_LABEL_REMOVE_STANCE_REQ = "移除姿态/形态要求"
 	L.DESC_REMOVE_STANCE_REQ = "在发送前阻止客户端拦截需要特定姿态或形态的法术（例如未处于战斗姿态时的冲锋）。施放仍由服务器验证，因此不会绕过服务器规则。对宏很有用。"
+	L.CVAR_LABEL_REMOVE_WEAPON_REQ = "移除武器/物品要求"
+	L.DESC_REMOVE_WEAPON_REQ = "在发送前阻止客户端拦截需要特定武器或副手物品的法术（例如未装备盾牌时的盾击）。施放仍由服务器验证，因此不会绕过服务器规则。对于在同一次点击中装备盾牌并施放盾牌法术的宏很有用。"
 	L.DESC_TAB_TARGET_RANGE = "TargetNearestEnemy 及相关 Tab 选目标命令搜索候选目标的最大距离（码）。"
 
 	-- CVar 模式选项

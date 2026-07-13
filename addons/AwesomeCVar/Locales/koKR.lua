@@ -108,6 +108,8 @@ if GetLocale() == "koKR" then
 	L.DESC_SESSION_LOG = "로그 파일 이름에 자동으로 타임스탬프를 추가합니다."
 	L.CVAR_LABEL_REMOVE_STANCE_REQ = "태세/변신 요구 제거"
 	L.DESC_REMOVE_STANCE_REQ = "특정 태세나 변신 형태가 필요한 주문을 전송하기 전에 클라이언트가 차단하지 않도록 합니다(예: 전투 태세가 아닐 때의 돌진). 시전은 여전히 서버에서 검증되므로 서버 규칙을 우회하지는 않습니다. 매크로에 유용합니다."
+	L.CVAR_LABEL_REMOVE_WEAPON_REQ = "무기/아이템 요구 제거"
+	L.DESC_REMOVE_WEAPON_REQ = "특정 무기나 보조 손 아이템이 필요한 주문을 전송하기 전에 클라이언트가 차단하지 않도록 합니다(예: 방패를 장착하지 않은 상태에서의 방패 강타). 시전은 여전히 서버에서 검증되므로 서버 규칙을 우회하지는 않습니다. 같은 클릭에서 방패를 장착한 뒤 방패 주문을 시전하는 매크로에 유용합니다."
 	L.DESC_TAB_TARGET_RANGE = "TargetNearestEnemy 및 관련 Tab 대상 지정 명령이 후보를 찾는 최대 거리(야드)입니다."
 
 	-- CVar 모드 옵션

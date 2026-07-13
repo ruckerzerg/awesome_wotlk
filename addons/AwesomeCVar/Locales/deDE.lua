@@ -108,6 +108,8 @@ if GetLocale() == "deDE" then
 	L.DESC_SESSION_LOG = "Fügt dem Namen der Protokolldatei automatisch einen Zeitstempel hinzu."
 	L.CVAR_LABEL_REMOVE_STANCE_REQ = "Haltungs-/Gestaltanforderung entfernen"
 	L.DESC_REMOVE_STANCE_REQ = "Verhindert, dass der Client Zauber blockiert, die eine bestimmte Haltung oder Gestalt erfordern, bevor sie gesendet werden (z. B. Sturmangriff außerhalb der Kampfhaltung). Der Zauber wird weiterhin vom Server geprüft, es werden also keine Serverregeln umgangen. Praktisch für Makros."
+	L.CVAR_LABEL_REMOVE_WEAPON_REQ = "Waffen-/Gegenstandsanforderung entfernen"
+	L.DESC_REMOVE_WEAPON_REQ = "Verhindert, dass der Client Zauber blockiert, die eine bestimmte Waffe oder einen Gegenstand in der Zweithand erfordern, bevor sie gesendet werden (z. B. Schildhieb ohne angelegten Schild). Der Zauber wird weiterhin vom Server geprüft, es werden also keine Serverregeln umgangen. Nützlich für Makros, die im selben Klick einen Schild anlegen und einen Schildzauber wirken."
 	L.DESC_TAB_TARGET_RANGE = "Maximale Reichweite (Yards), innerhalb derer TargetNearestEnemy und verwandte Tab-Ziel-Befehle Kandidaten finden."
 
     -- CVar Mode Optionen

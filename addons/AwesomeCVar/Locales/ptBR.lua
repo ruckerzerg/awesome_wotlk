@@ -108,6 +108,8 @@ if GetLocale() == "ptBR" then
 	L.DESC_SESSION_LOG = "Adiciona automaticamente um carimbo de data/hora ao nome do arquivo de log."
 	L.CVAR_LABEL_REMOVE_STANCE_REQ = "Remover exigência de postura/forma"
 	L.DESC_REMOVE_STANCE_REQ = "Impede que o cliente bloqueie magias que exigem uma postura ou forma específica antes de enviá-las (ex.: Investida fora da Postura de combate). A conjuração ainda é validada pelo servidor, então nenhuma regra é burlada. Útil para macros."
+	L.CVAR_LABEL_REMOVE_WEAPON_REQ = "Remover exigência de arma/item"
+	L.DESC_REMOVE_WEAPON_REQ = "Impede que o cliente bloqueie magias que exigem uma arma ou item de mão secundária específicos antes de enviá-las (ex.: Golpe com Escudo sem um escudo equipado). A conjuração ainda é validada pelo servidor, então nenhuma regra é burlada. Útil para macros que equipam um escudo e lançam uma magia de escudo no mesmo clique."
 	L.DESC_TAB_TARGET_RANGE = "Distância máxima (jardas) em que TargetNearestEnemy e os comandos relacionados de seleção por Tab encontram um candidato."
 
 	-- Opções de Modo CVar

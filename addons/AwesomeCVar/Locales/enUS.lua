@@ -108,6 +108,8 @@ if GetLocale() == "enUS" then
     L.DESC_SESSION_LOG = "Automatically appends a timestamp to the log file name."
     L.CVAR_LABEL_REMOVE_STANCE_REQ = "Remove Stance/Form Requirement"
     L.DESC_REMOVE_STANCE_REQ = "Stops the client from blocking spells that require a specific stance or form before sending them (e.g. Charge while not in Battle Stance). The cast is still validated by the server, so nothing bypasses server rules. Handy for macros."
+    L.CVAR_LABEL_REMOVE_WEAPON_REQ = "Remove Weapon/Item Requirement"
+    L.DESC_REMOVE_WEAPON_REQ = "Stops the client from blocking spells that require a specific weapon or off-hand item before sending them (e.g. Shield Slam without a shield equipped). The cast is still validated by the server, so nothing bypasses server rules. Useful for macros that equip a shield and then cast a shield ability in the same click."
     L.DESC_TAB_TARGET_RANGE = "Maximum distance (yards) at which TargetNearestEnemy and related tab-target commands will find a candidate."
 
     -- CVar Mode Labels

@@ -108,6 +108,8 @@ if GetLocale() == "zhTW" then
 	L.DESC_SESSION_LOG = "自動在記錄檔案名稱後加入時間戳。"
 	L.CVAR_LABEL_REMOVE_STANCE_REQ = "移除姿態/型態需求"
 	L.DESC_REMOVE_STANCE_REQ = "在傳送前阻止客戶端攔截需要特定姿態或型態的法術（例如未處於戰鬥姿態時的衝鋒）。施放仍由伺服器驗證，因此不會繞過伺服器規則。對巨集很有用。"
+	L.CVAR_LABEL_REMOVE_WEAPON_REQ = "移除武器/物品需求"
+	L.DESC_REMOVE_WEAPON_REQ = "在傳送前阻止客戶端攔截需要特定武器或副手物品的法術（例如未裝備盾牌時的盾擊）。施放仍由伺服器驗證，因此不會繞過伺服器規則。對於在同一次點擊中裝備盾牌並施放盾牌法術的巨集很有用。"
 	L.DESC_TAB_TARGET_RANGE = "TargetNearestEnemy 及相關 Tab 選目標指令搜尋候選目標的最大距離（碼）。"
 
 	-- CVar 模式選項

@@ -108,6 +108,8 @@ if GetLocale() == "esMX" then
 	L.DESC_SESSION_LOG = "Añade automáticamente una marca de tiempo al nombre del archivo de registro."
 	L.CVAR_LABEL_REMOVE_STANCE_REQ = "Quitar requisito de postura/forma"
 	L.DESC_REMOVE_STANCE_REQ = "Evita que el cliente bloquee hechizos que requieren una postura o forma específica antes de enviarlos (p. ej. Carga fuera de la Postura de combate). El servidor sigue validando el lanzamiento, por lo que no se saltan sus reglas. Útil para macros."
+	L.CVAR_LABEL_REMOVE_WEAPON_REQ = "Quitar requisito de arma/objeto"
+	L.DESC_REMOVE_WEAPON_REQ = "Evita que el cliente bloquee hechizos que requieren un arma o un objeto en la mano secundaria antes de enviarlos (p. ej. Golpe con escudo sin un escudo equipado). El servidor sigue validando el lanzamiento, por lo que no se saltan sus reglas. Útil para macros que equipan un escudo y luego lanzan un hechizo de escudo en el mismo clic."
 	L.DESC_TAB_TARGET_RANGE = "Distancia máxima (yardas) a la que TargetNearestEnemy y los comandos de objetivo por Tab encontrarán un candidato."
 
 	-- CVar Mode Options
